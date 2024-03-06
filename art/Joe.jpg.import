@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dleoo4jdnqwpf"
-path="res://.godot/imported/What the heck.png-cfb1247f4df59840f9dd5f7b6d6857cc.ctex"
+uid="uid://qyhqtne8estr"
+path="res://.godot/imported/Joe.jpg-f5d2da5731eec189fbc545b6fcd7e6e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/What the heck.png"
-dest_files=["res://.godot/imported/What the heck.png-cfb1247f4df59840f9dd5f7b6d6857cc.ctex"]
+source_file="res://art/Joe.jpg"
+dest_files=["res://.godot/imported/Joe.jpg-f5d2da5731eec189fbc545b6fcd7e6e8.ctex"]
 
 [params]
 
