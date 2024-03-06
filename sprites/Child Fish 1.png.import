@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ed8i3yagxs80"
-path="res://.godot/imported/Child Fish 1 Sprite Sheet.png-8731b51baa59e2bb54e445532381283a.ctex"
+path="res://.godot/imported/Child Fish 1.png-00166479d61cce44b32b9f266f7dc366.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Child Fish 1 Sprite Sheet.png"
-dest_files=["res://.godot/imported/Child Fish 1 Sprite Sheet.png-8731b51baa59e2bb54e445532381283a.ctex"]
+source_file="res://sprites/Child Fish 1.png"
+dest_files=["res://.godot/imported/Child Fish 1.png-00166479d61cce44b32b9f266f7dc366.ctex"]
 
 [params]
 
