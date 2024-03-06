@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dkkvpt2sqso8x"
-path="res://.godot/imported/Player sprite sheet.png-b31260c4a17a455894dabc8d45b66eb2.ctex"
+uid="uid://bne1ntb5biqbw"
+path="res://.godot/imported/Fishing rod (5).png-5069a6a4d625354d4d156e3fbbd9f61c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Player sprite sheet.png"
-dest_files=["res://.godot/imported/Player sprite sheet.png-b31260c4a17a455894dabc8d45b66eb2.ctex"]
+source_file="res://sprites/Fishing rod (5).png"
+dest_files=["res://.godot/imported/Fishing rod (5).png-5069a6a4d625354d4d156e3fbbd9f61c.ctex"]
 
 [params]
 
