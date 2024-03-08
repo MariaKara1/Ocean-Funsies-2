@@ -1,4 +1,8 @@
-Area2D
+AnimatedSprite2D
+Sprite2D
+ParallaxLayer
+ParallaxBackground
+Marker2D
 Timer
 Button
 Label
