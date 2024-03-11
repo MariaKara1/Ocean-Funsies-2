@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://bdm448edrj32l"
+=======
+uid="uid://drato0qk0essc"
+>>>>>>> Stashed changes
 path="res://.godot/imported/Child Fish 1 Sprite Sheet.png-8731b51baa59e2bb54e445532381283a.ctex"
 metadata={
 "vram_texture": false
