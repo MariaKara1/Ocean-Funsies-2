@@ -52,7 +52,7 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="main" type="Node2D"]
+[node name="Main" type="Node2D"]
 
 [node name="start position" type="Marker2D" parent="."]
 gizmo_extents = 0.0
