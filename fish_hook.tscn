@@ -1,0 +1,114 @@
+[gd_scene load_steps=17 format=3 uid="uid://bw14ijvmqcwcv"]
+
+[ext_resource type="Texture2D" uid="uid://bne1ntb5biqbw" path="res://sprites/Fishing rod (5).png" id="1_wserh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c578l"]
+atlas = ExtResource("1_wserh")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wfnjw"]
+atlas = ExtResource("1_wserh")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ncof0"]
+atlas = ExtResource("1_wserh")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n6xdn"]
+atlas = ExtResource("1_wserh")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s3kmj"]
+atlas = ExtResource("1_wserh")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fu01u"]
+atlas = ExtResource("1_wserh")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_01g4m"]
+atlas = ExtResource("1_wserh")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wfpou"]
+atlas = ExtResource("1_wserh")
+region = Rect2(96, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d4am1"]
+atlas = ExtResource("1_wserh")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_35ef1"]
+atlas = ExtResource("1_wserh")
+region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_to3yt"]
+atlas = ExtResource("1_wserh")
+region = Rect2(64, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jeu5n"]
+atlas = ExtResource("1_wserh")
+region = Rect2(96, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t0da4"]
+atlas = ExtResource("1_wserh")
+region = Rect2(0, 96, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6oalv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c578l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wfnjw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ncof0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n6xdn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s3kmj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fu01u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01g4m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wfpou")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d4am1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_35ef1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_to3yt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jeu5n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t0da4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="ConcavePolygonShape2D" id="ConcavePolygonShape2D_dmyfw"]
+
+[node name="Fish Hook" type="RigidBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_6oalv")
+frame_progress = 0.114904
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("ConcavePolygonShape2D_dmyfw")

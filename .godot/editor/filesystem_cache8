@@ -1,20 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1710179037
-huddddddddddddd.gd::GDScript::-1::1709841877::0::1::::<>CanvasLayer<>::
-huddddddddddddddddddddddddddddd.tscn::PackedScene::4523542201678681761::1709841877::0::1::::<><>::
-hudddddddddddddddddddddddddddddddd.tscn::PackedScene::6423604387453161451::1709841877::0::1::::<><>::
-icon.svg::CompressedTexture2D::4716764032750095388::1709582167::1709839455::1::::<><>::
-node_2d.tscn::PackedScene::5937364406947074935::1709841877::0::1::::<><>::
-phish.tscn::PackedScene::3468491878634080560::1709841946::0::1::::<><>::uid://dkkvpt2sqso8x::::res://sprites/Player swimming animation sprite sheet.png
-README.md::TextFile::-1::1709582766::0::1::::<><>::
-::res://art/::1709840677
-beach.png::CompressedTexture2D::3840062245650706720::1709840677::1709754424::1::::<><>::
-Joe.png::CompressedTexture2D::2073007290198624360::1709840677::1709840677::1::::<><>::
-ocean.png::CompressedTexture2D::7628429080608570760::1709840677::1709840677::1::::<><>::
-What the heck.png::CompressedTexture2D::7940473418362024907::1709840677::1709755145::1::::<><>::
-::res://sprites/::1709755145
-Child Fish 1.png::CompressedTexture2D::288967962664895323::1709754517::1709754517::1::::<><>::
-Child Fish 2.png::CompressedTexture2D::7947308280201733418::1709754517::1709754517::1::::<><>::
-Fishing rod (5).png::CompressedTexture2D::3308736019989642056::1709754413::1709754588::1::::<><>::
-Player swimming animation sprite sheet.png::CompressedTexture2D::7883097149250209729::1709755145::1709755145::1::::<><>::
-Tutorial_fish.png::CompressedTexture2D::6602799396686122881::1709753525::1709754255::1::::<><>::
+::res://::1710178752
+fish_hook.tscn::PackedScene::3986024650194588929::1709927810::0::1::::<><>::uid://bne1ntb5biqbw::::res://sprites/Fishing rod (5).png
+huddddddddddddd.gd::GDScript::-1::1709928140::0::1::::<>CanvasLayer<>::
+huddddddddddddddddddddddddddddd.tscn::PackedScene::4523542201678681761::1709841835::0::1::::<><>::
+hudddddddddddddddddddddddddddddddd.tscn::PackedScene::6423604387453161451::1709927412::0::1::::<><>::
+icon.svg::CompressedTexture2D::4716764032750095388::1709668165::1709925192::1::::<><>::
+main.tscn::PackedScene::2577869428777810206::1709928140::0::1::::<><>::
+node_2d.tscn::PackedScene::5937364406947074935::1709841835::0::1::::<><>::
+README.md::TextFile::-1::1709666307::0::1::::<><>::
+::res://art/::1709928140
+beach.png::CompressedTexture2D::3840062245650706720::1709755378::1709754714::1::::<><>::
+Joe.png::CompressedTexture2D::2073007290198624360::1709839195::1709839195::1::::<><>::
+ocean.png::CompressedTexture2D::7628429080608570760::1709755378::1709755378::1::::<><>::
+What the heck.png::CompressedTexture2D::8656328382576842453::1709839195::1709928140::1::::<><>::
+::res://sprites/::1709928140
+Child Fish 1.png::CompressedTexture2D::288967962664895323::1709754670::1709754670::1::::<><>::
+Child Fish 2.png::CompressedTexture2D::7947308280201733418::1709754670::1709754670::1::::<><>::
+Fishing rod (5).png::CompressedTexture2D::3308736019989642056::1709928140::1709754670::1::::<><>::
+Player swimming animation sprite sheet.png::CompressedTexture2D::7883097149250209729::1709753347::1709754806::1::::<><>::
+Tutorial_fish.png::CompressedTexture2D::6602799396686122881::1709753347::1709754714::1::::<><>::
