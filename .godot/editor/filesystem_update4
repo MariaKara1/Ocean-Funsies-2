@@ -1,7 +1,4 @@
-res://phish.tscn
-res://phish_script.gd
 res://fish_hook.tscn
-res://main.tscn
 res://hudddddddddddddddddddddddddddddddd.tscn
-res://node_2d.tscn
-res://phish.gd
+res://main.tscn
+res://phish.tscn
