@@ -1,5 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://bpofs38un3eui"]
+[gd_scene load_steps=7 format=3 uid="uid://bpofs38un3eui"]
 
+[ext_resource type="Script" path="res://phish.gd" id="1_qt1ql"]
 [ext_resource type="Texture2D" uid="uid://dkkvpt2sqso8x" path="res://sprites/Player swimming animation sprite sheet.png" id="1_ve6e1"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5onbt"]
@@ -35,6 +36,7 @@ animations = [{
 }]
 
 [node name="Phish" type="Area2D"]
+script = ExtResource("1_qt1ql")
 
 [node name="Area2D" type="CollisionShape2D" parent="."]
 
