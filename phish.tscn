@@ -41,5 +41,6 @@ animations = [{
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_hloxa")
-frame_progress = 0.521142
+frame = 1
+frame_progress = 0.876623
 speed_scale = 0.5
