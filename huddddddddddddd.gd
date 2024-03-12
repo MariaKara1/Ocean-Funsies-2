@@ -24,7 +24,7 @@ func show_game_over():
 
 	$Message.text = "Ocean Funsies"
 	$Message.show()
-	# Make a one-shot timer and wait for it to finish.
+	# Make a one-shot timer and wait for it to finish. corn
 	await get_tree().create_timer(1.0).timeout
 	$StartButton.show()
 	
