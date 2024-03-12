@@ -29,6 +29,9 @@ func _process(delta):
 		$AnimatedSprite2D.stop()
 	position += velocity * delta
 	position = position.clamp(Vector2.ZERO, screen_size)
+	if velocity.x != 0:
+	# See the note below about boolean assignment. .
+		$AnimatedSprite2D.flip_h = velocity.x > 0
 
 
 func _on_body_entered(body):
