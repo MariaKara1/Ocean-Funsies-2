@@ -11,6 +11,6 @@ config_version=5
 [application]
 
 config/name="Ocean Fun Time"
-run/main_scene="res://scenes/fish_hook.tscn"
+run/main_scene="res://hudddddddddddddddddddddddddddddddd.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
