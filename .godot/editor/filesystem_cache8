@@ -1,13 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1710350631
+::res://::1710436576
 fish_hook.tscn::PackedScene::3986024650194588929::1710350581::0::1::::<><>::uid://bne1ntb5biqbw::::res://sprites/Fishing rod (5).png
 huddddddddddddd.gd::GDScript::-1::1710263851::0::1::::<>CanvasLayer<>::
 huddddddddddddddddddddddddddddd.tscn::PackedScene::4523542201678681761::1709841835::0::1::::<><>::
 hudddddddddddddddddddddddddddddddd.tscn::PackedScene::6423604387453161451::1710350581::0::1::::<><>::
-icon.svg::CompressedTexture2D::4716764032750095388::1709668165::1710266646::1::::<><>::
-main.tscn::PackedScene::2577869428777810206::1710350581::0::1::::<><>::uid://dgxjd277rgc3i::::res://art/ocean.png
+icon.svg::CompressedTexture2D::4716764032750095388::1709668165::1710436577::1::::<><>::
+main.tscn::PackedScene::2577869428777810206::1710353043::0::1::::<><>::uid://dgxjd277rgc3i::::res://art/ocean.png
 node_2d.tscn::PackedScene::5937364406947074935::1709841835::0::1::::<><>::
-phish.tscn::PackedScene::3468491878634080560::1710350581::0::1::::<><>::uid://dkkvpt2sqso8x::::res://sprites/Player swimming animation sprite sheet.png
+phish.gd::GDScript::-1::1710352859::0::1::::<>Area2D<>::
+phish.tscn::PackedScene::3468491878634080560::1710352859::0::1::::<><>::res://phish.gd<>uid://dkkvpt2sqso8x::::res://sprites/Player swimming animation sprite sheet.png
 phish_script.gd::GDScript::-1::1710350581::0::1::::<>Area2D<>::
 README.md::TextFile::-1::1709666307::0::1::::<><>::
 ::res://art/::1710178926
