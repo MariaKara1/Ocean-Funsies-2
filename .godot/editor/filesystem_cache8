@@ -1,11 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1711389218
 fish_hook.tscn::PackedScene::3986024650194588929::1710525497::0::1::::<><>::uid://bne1ntb5biqbw::::res://sprites/Fishing rod (5).png
 huddddddddddddd.gd::GDScript::-1::1710525497::0::1::::<>CanvasLayer<>::
+=======
+::res://::1710525389
+fish_hook.tscn::PackedScene::3986024650194588929::1710350581::0::1::::<><>::uid://bne1ntb5biqbw::::res://sprites/Fishing rod (5).png
+huddddddddddddd.gd::GDScript::-1::1710263851::0::1::::<>CanvasLayer<>::
+>>>>>>> Stashed changes
 huddddddddddddddddddddddddddddd.tscn::PackedScene::4523542201678681761::1709841835::0::1::::<><>::
 hudddddddddddddddddddddddddddddddd.tscn::PackedScene::6423604387453161451::1710525497::0::1::::<><>::
 icon.svg::CompressedTexture2D::4716764032750095388::1709668165::1710436577::1::::<><>::
+<<<<<<< Updated upstream
 main.tscn::PackedScene::2577869428777810206::1710525452::0::1::::<><>::uid://dgxjd277rgc3i::::res://art/ocean.png
+=======
+main.tscn::PackedScene::2577869428777810206::1710439293::0::1::::<><>::uid://dgxjd277rgc3i::::res://art/ocean.png
+>>>>>>> Stashed changes
 node_2d.tscn::PackedScene::5937364406947074935::1709841835::0::1::::<><>::
 phish.gd::GDScript::-1::1710352859::0::1::::<>Area2D<>::
 phish.tscn::PackedScene::3468491878634080560::1710525497::0::1::::<><>::res://phish.gd<>uid://dkkvpt2sqso8x::::res://sprites/Player swimming animation sprite sheet.png
