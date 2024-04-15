@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://cxrv3ctyfqr2b"]
+[gd_scene load_steps=2 format=3 uid="uid://cxrv3ctyfqr2b"]
+
+[ext_resource type="Script" path="res://hudddddddddddddddddddddddddddddddd.gd" id="1_sptgv"]
 
 [node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_sptgv")
 
 [node name="ScoreLabel" type="Label" parent="."]
 texture_filter = 1
@@ -44,3 +47,5 @@ text = "Start"
 [node name="MessageTimer" type="Timer" parent="."]
 wait_time = 2.0
 one_shot = true
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
