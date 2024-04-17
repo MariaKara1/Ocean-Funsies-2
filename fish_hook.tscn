@@ -1,9 +1,7 @@
-[gd_scene load_steps=17 format=3 uid="uid://bw14ijvmqcwcv"]
+[gd_scene load_steps=18 format=3 uid="uid://bw14ijvmqcwcv"]
 
+[ext_resource type="Script" path="res://fish_hook.gd" id="1_li6da"]
 [ext_resource type="Texture2D" uid="uid://bne1ntb5biqbw" path="res://sprites/Fishing rod (5).png" id="1_wserh"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_l41dl"]
-size = Vector2(9, 3)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_c578l"]
 atlas = ExtResource("1_wserh")
@@ -104,16 +102,20 @@ animations = [{
 "speed": 12.0
 }]
 
-[node name="Fish Hook" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l41dl"]
+size = Vector2(9, 3)
+
+[node name="Fish Hook" type="RigidBody2D"]
+script = ExtResource("1_li6da")
 
 [node name="Area2D" type="Area2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(0.5, 14.5)
-shape = SubResource("RectangleShape2D_l41dl")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_6oalv")
 frame = 11
 frame_progress = 0.988877
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 14.5)
+shape = SubResource("RectangleShape2D_l41dl")
