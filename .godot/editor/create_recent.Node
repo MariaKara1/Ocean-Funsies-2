@@ -1,3 +1,5 @@
+Label
+RichTextLabel
 TextureRect
 Control
 Area2D
@@ -11,5 +13,3 @@ ParallaxBackground
 Marker2D
 Timer
 Button
-Label
-CanvasLayer
