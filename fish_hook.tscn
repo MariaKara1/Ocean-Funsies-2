@@ -112,10 +112,13 @@ script = ExtResource("1_li6da")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
+position = Vector2(0, -1)
 sprite_frames = SubResource("SpriteFrames_6oalv")
-frame = 11
-frame_progress = 0.988877
+frame = 12
+frame_progress = 0.865008
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0.5, 14.5)
+position = Vector2(0.5, 13.5)
 shape = SubResource("RectangleShape2D_l41dl")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
