@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1713980765
+::res://::1714065565
+Dialog box.gd::GDScript::-1::1713980765::0::1::::<>Control<>::
 fish_hook.tscn::PackedScene::3986024650194588929::1713980406::0::1::::<><>::uid://bne1ntb5biqbw::::res://sprites/Fishing rod (5).png
 huddddddddddddd.gd::GDScript::-1::1712856984::0::1::::<>CanvasLayer<>::
 huddddddddddddddddddddddddddddd.tscn::PackedScene::4523542201678681761::1709841161::0::1::::<><>::
@@ -11,10 +12,9 @@ phish.gd::GDScript::-1::1712856792::0::1::::<>Area2D<>::
 phish.tscn::PackedScene::3468491878634080560::1713980406::0::1::::<><>::res://phish.gd<>uid://dkkvpt2sqso8x::::res://sprites/Player swimming animation sprite sheet.png
 phish_script.gd::GDScript::-1::1710350829::0::1::::<>Area2D<>::
 README.md::TextFile::-1::1709666437::0::1::::<><>::
-Dialog box.gd::GDScript::-1::1713980765::0::1::::<>Control<>::
 storymode.gd::GDScript::-1::1713808195::0::1::::<>Node<>::
-storymode.tscn::PackedScene::7001524312413380413::1713980765::0::1::::<><>::uid://dqh8h6w1a80t8::::res://art/textbox.png<>res://Dialog box.gd
-::res://art/::1713980864
+storymode.tscn::PackedScene::7001524312413380413::1713981111::0::1::::<><>::uid://dqh8h6w1a80t8::::res://art/textbox.png<>res://Dialog box.gd
+::res://art/::1713980866
 beach.png::CompressedTexture2D::3840062245650706720::1709755411::1709754608::1::::<><>::
 curved-arrow-outline-icon-download-vector-33.png::CompressedTexture2D::891003421877513202::1713980851::1713980866::1::::<><>::
 Joe.png::CompressedTexture2D::2073007290198624360::1709755530::1709755530::1::::<><>::
