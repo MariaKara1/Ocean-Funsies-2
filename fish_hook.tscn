@@ -106,6 +106,7 @@ animations = [{
 size = Vector2(9, 3)
 
 [node name="Fish Hook" type="RigidBody2D"]
+gravity_scale = 0.0
 script = ExtResource("1_li6da")
 
 [node name="Area2D" type="Area2D" parent="."]
@@ -121,4 +122,6 @@ frame_progress = 0.865008
 position = Vector2(0.5, 13.5)
 shape = SubResource("RectangleShape2D_l41dl")
 
-[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+[node name="Visibility" type="VisibleOnScreenNotifier2D" parent="."]
+
+[connection signal="screen_exited" from="Visibility" to="." method="_on_visibility_screen_exited"]
