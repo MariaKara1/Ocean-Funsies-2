@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://byfs702xho21w"]
+
+[ext_resource type="Script" path="res://storymode.2.0.gd" id="1_4dqvw"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_wld07"]
+
+[node name="TextBox" type="Node2D"]
+script = ExtResource("1_4dqvw")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+position = Vector2(560, 104)
+scale = Vector2(584.5, 152.5)
+mesh = SubResource("QuadMesh_wld07")
+
+[node name="Dialogbox" type="RichTextLabel" parent="."]
+modulate = Color(0, 0, 0, 1)
+self_modulate = Color(0, 0, 0, 1)
+offset_left = 272.0
+offset_top = 32.0
+offset_right = 848.0
+offset_bottom = 176.0
+text = "Hello everynyan"
+visible_characters = 0
+visible_ratio = 0.0

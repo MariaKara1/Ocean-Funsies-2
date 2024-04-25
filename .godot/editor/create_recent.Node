@@ -1,5 +1,6 @@
-Label
 RichTextLabel
+MeshInstance2D
+Label
 TextureRect
 Control
 Area2D
@@ -11,5 +12,3 @@ Sprite2D
 ParallaxLayer
 ParallaxBackground
 Marker2D
-Timer
-Button
