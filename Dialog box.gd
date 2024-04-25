@@ -12,13 +12,13 @@ var finished = false
 func _ready():
 	load_dialog();
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_pressed("ui_accept"):
 		load_dialog()
 
 func load_dialog():
 	if dialog_index < dialog.size():
-		$Message.bbcode_text = dialog[dialog_index]
+		$Message.label = dialog[dialog_index]
 		$Message.percent_visible = 0
 		$Tween.interpolate_property(
 			$Message, "percent_visible", 0, 1, 1,
