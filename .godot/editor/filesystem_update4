@@ -1,8 +1,7 @@
-res://main.tscn
 res://phish.tscn
 res://fish_hook.tscn
+res://main.tscn
 res://hudddddddddddddddddddddddddddddddd.tscn
 res://node_2d.tscn
-res://fish_hook.gd
 res://main.gd
-res://phish.gd
+res://hudddddddddddddddddddddddddddddddd.gd
