@@ -27,7 +27,7 @@ func advance_text():
 	dialog(line)
 	
 	
-
+	
 #set the text from dialog
 #show the text
 
@@ -65,3 +65,4 @@ func dialog(line):
 func _on_wait_timeout():
 	show_dialog = true
 
+#note: add in dialog + watch the persons 54 minute video for more  help
