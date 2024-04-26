@@ -31,6 +31,7 @@ func advance_text():
 #set the text from dialog
 #show the text
 
+@warning_ignore("unused_parameter")
 func _process(delta):
 	show_text()
 
@@ -50,6 +51,7 @@ func clear_text():
 
 
 
+@warning_ignore("shadowed_variable")
 func dialog(line):
 	match line:
 		0:$Dialogbox.text = "Hello everynyan"
