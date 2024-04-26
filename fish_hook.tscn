@@ -108,6 +108,8 @@ size = Vector2(9, 3)
 [node name="Fish Hook" type="RigidBody2D"]
 gravity_scale = 0.0
 script = ExtResource("1_li6da")
+min_speed = null
+max_speed = null
 
 [node name="Area2D" type="Area2D" parent="."]
 

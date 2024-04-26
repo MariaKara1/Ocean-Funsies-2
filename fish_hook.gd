@@ -13,3 +13,14 @@ func _process(_delta):
 
 func _on_visibility_screen_exited():
 	queue_free()
+
+#fish hook start function
+func startf(posf):
+	position = posf
+	show()
+	$CollisionShape2D.disabled = false
+
+
+func _on_hud_start_game():
+	startf.emit()
+#trying to get fish hook to be in start of game
