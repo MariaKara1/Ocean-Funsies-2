@@ -67,7 +67,7 @@ motion_mirroring = Vector2(47, 0)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ParallaxBackground/ParallaxLayer"]
 texture_filter = 1
-position = Vector2(540, 262)
+position = Vector2(557, 262)
 scale = Vector2(35.2266, 32.9891)
 sprite_frames = SubResource("SpriteFrames_gk6e4")
 frame_progress = 0.320921
@@ -79,7 +79,7 @@ gizmo_extents = 0.0
 [node name="HUD" parent="." instance=ExtResource("2_va0fa")]
 
 [node name="Phish" parent="." instance=ExtResource("4_bw0ws")]
-position = Vector2(1, 135)
+position = Vector2(-491, 189)
 
 [node name="ScoreTimer" type="Timer" parent="."]
 
@@ -87,12 +87,17 @@ position = Vector2(1, 135)
 wait_time = 2.0
 one_shot = true
 
-[node name="Fish Hook" parent="." instance=ExtResource("2_ljhjs")]
+[node name="Fish_Hook" parent="." instance=ExtResource("2_ljhjs")]
+position = Vector2(-368, -14)
 
 [node name="MobTimer" type="Timer" parent="."]
 
+[node name="StartForHook" type="Marker2D" parent="."]
+position = Vector2(500, 20)
+gizmo_extents = 0.0
+
 [connection signal="start_game" from="HUD" to="." method="new_game"]
-[connection signal="start_game" from="HUD" to="Fish Hook" method="_on_hud_start_game"]
+[connection signal="start_game" from="HUD" to="Fish_Hook" method="_on_hud_start_game"]
 [connection signal="hit" from="Phish" to="." method="game_over"]
 [connection signal="timeout" from="ScoreTimer" to="." method="_on_score_timer_timeout"]
 [connection signal="timeout" from="StartTimer" to="." method="_on_start_timer_timeout"]

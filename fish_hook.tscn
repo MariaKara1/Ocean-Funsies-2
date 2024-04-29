@@ -108,14 +108,13 @@ size = Vector2(9, 3)
 [node name="Fish Hook" type="RigidBody2D"]
 gravity_scale = 0.0
 script = ExtResource("1_li6da")
-min_speed = null
-max_speed = null
 
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 position = Vector2(0, -1)
+scale = Vector2(9, 9)
 sprite_frames = SubResource("SpriteFrames_6oalv")
 frame = 12
 frame_progress = 0.865008

@@ -18,11 +18,13 @@ func game_over():
 
 func new_game():
 	score = 0
-	$Phish.start($StartPosition.position)
-	$StartTimer.start()
-	$HUD.update_score(score)
 	$HUD.show_message("Get Ready")
+	$HUD.update_score(score)
+	$StartTimer.start()
 	$MobTimer.start()
+	$Phish.start($StartPosition.position)
+	$Fish_Hook.startf($StartForHook.position)
+	
 
 func _on_score_timer_timeout():
 	score += 1
