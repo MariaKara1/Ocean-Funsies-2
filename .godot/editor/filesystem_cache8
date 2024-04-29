@@ -1,19 +1,19 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714152304
+::res://::1714412905
 Dialog box.gd::GDScript::-1::1714065784::0::1::::<>Control<>::
-fish_hook.tscn::PackedScene::3986024650194588929::1714067709::0::1::::<><>::uid://bne1ntb5biqbw::::res://sprites/Fishing rod (5).png
+fish_hook.tscn::PackedScene::3986024650194588929::1714154573::0::1::::<><>::uid://bne1ntb5biqbw::::res://sprites/Fishing rod (5).png
 huddddddddddddd.gd::GDScript::-1::1714065916::0::1::::<>CanvasLayer<>::
 huddddddddddddddddddddddddddddd.tscn::PackedScene::4523542201678681761::1709841161::0::1::::<><>::
-hudddddddddddddddddddddddddddddddd.tscn::PackedScene::6423604387453161451::1714067709::0::1::::<><>::
+hudddddddddddddddddddddddddddddddd.tscn::PackedScene::6423604387453161451::1714154573::0::1::::<><>::
 icon.svg::CompressedTexture2D::4716764032750095388::1709668161::1710350433::1::::<><>::
-main.tscn::PackedScene::2577869428777810206::1714067709::0::1::::<><>::uid://dgxjd277rgc3i::::res://art/ocean.png
-node_2d.tscn::PackedScene::5937364406947074935::1714067709::0::1::::<><>::
+main.tscn::PackedScene::2577869428777810206::1714154573::0::1::::<><>::uid://dgxjd277rgc3i::::res://art/ocean.png
+node_2d.tscn::PackedScene::5937364406947074935::1714154573::0::1::::<><>::
 phish.gd::GDScript::-1::1712856792::0::1::::<>Area2D<>::
-phish.tscn::PackedScene::3468491878634080560::1714067709::0::1::::<><>::res://phish.gd<>uid://dkkvpt2sqso8x::::res://sprites/Player swimming animation sprite sheet.png
+phish.tscn::PackedScene::3468491878634080560::1714154573::0::1::::<><>::res://phish.gd<>uid://dkkvpt2sqso8x::::res://sprites/Player swimming animation sprite sheet.png
 phish_script.gd::GDScript::-1::1710350829::0::1::::<>Area2D<>::
 README.md::TextFile::-1::1709666437::0::1::::<><>::
-storymode.2.0.gd::GDScript::-1::1714068016::0::1::::<>Node2D<>::
-storymode.2.0.tscn::PackedScene::4082426226899354486::1714068051::0::1::::<><>::res://storymode.2.0.gd
+storymode.2.0.gd::GDScript::-1::1714154679::0::1::::<>Node2D<>::
+storymode.2.0.tscn::PackedScene::4082426226899354486::1714154707::0::1::::<><>::res://storymode.2.0.gd
 storymode.gd::GDScript::-1::1713808195::0::1::::<>Node<>::
 storymode.tscn::PackedScene::7001524312413380413::1714065792::0::1::::<><>::uid://dqh8h6w1a80t8::::res://art/textbox.png<>res://Dialog box.gd
 ::res://art/::1713980866
