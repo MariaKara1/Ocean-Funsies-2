@@ -3,6 +3,4 @@ res://phish.tscn
 res://fish_hook.tscn
 res://main.tscn
 res://node_2d.tscn
-res://huddddddddddddd.gd
-res://phish.gd
-res://phish_script.gd
+res://cutscene_1.tscn

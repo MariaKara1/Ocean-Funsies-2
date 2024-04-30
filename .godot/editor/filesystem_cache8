@@ -1,30 +1,33 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714066194
-cutscene_1.tscn::PackedScene::2102094581498671112::1713980540::0::1::::<><>::uid://dkkvpt2sqso8x::::res://sprites/Player swimming animation sprite sheet.png<>uid://ed8i3yagxs80::::res://sprites/Child Fish 1.png<>uid://dlh0ahh8wqm3c::::res://sprites/Child Fish 2.png<>uid://xbs1ph11xdqu::::res://sprites/six pack rings.png
-fish_hook.tscn::PackedScene::3986024650194588929::1713376357::0::1::::<><>::uid://bne1ntb5biqbw::::res://sprites/Fishing rod (5).png
-huddddddddddddd.gd::GDScript::-1::1710783939::0::1::::<>CanvasLayer<>::
-huddddddddddddddddddddddddddddd.tscn::PackedScene::4523542201678681761::1709841971::0::1::::<><>::
-hudddddddddddddddddddddddddddddddd.tscn::PackedScene::6423604387453161451::1713376357::0::1::::<><>::
+::res://::1714497647
+cutscene_1.tscn::PackedScene::2102094581498671112::1714497647::0::1::::<><>::uid://cxx4eo42k3px6::::res://sprites/Mom fish swimming animation sprite sheet.png<>uid://dkkvpt2sqso8x::::res://sprites/Player swimming animation sprite sheet.png<>uid://cmobf2b7x4mgg::::res://sprites/Dad fish swimming animation sprite sheet.png<>uid://xbs1ph11xdqu::::res://sprites/six pack rings.png
+fish_hook.gd::GDScript::-1::1714413323::0::1::::<>RigidBody2D<>::
+fish_hook.tscn::PackedScene::3986024650194588929::1714497647::0::1::::<><>::uid://bne1ntb5biqbw::::res://sprites/Fishing rod (5).png
+huddddddddddddd.gd::GDScript::-1::1714413323::0::1::::<>CanvasLayer<>::
+huddddddddddddddddddddddddddddd.tscn::PackedScene::4523542201678681761::1714413323::0::1::::<><>::
+hudddddddddddddddddddddddddddddddd.gd::GDScript::-1::1714413323::0::1::::<>CanvasLayer<>::
+hudddddddddddddddddddddddddddddddd.tscn::PackedScene::6423604387453161451::1714497647::0::1::::<><>::
 icon.svg::CompressedTexture2D::4716764032750095388::1709668210::1710437384::1::::<><>::
-main.tscn::PackedScene::2577869428777810206::1713376357::0::1::::<><>::uid://dgxjd277rgc3i::::res://art/ocean.png
-node_2d.tscn::PackedScene::5937364406947074935::1713376357::0::1::::<><>::
-phish.gd::GDScript::-1::1710352287::0::1::::<>Area2D<>::
-phish.tscn::PackedScene::3468491878634080560::1713376357::0::1::::<><>::res://phish.gd<>uid://dkkvpt2sqso8x::::res://sprites/Player swimming animation sprite sheet.png
-phish_script.gd::GDScript::-1::1710351055::0::1::::<>Area2D<>::
+main.gd::GDScript::-1::1714413324::0::1::::<>Node2D<>::
+main.tscn::PackedScene::2577869428777810206::1714497647::0::1::::<><>::uid://dgxjd277rgc3i::::res://art/ocean.png
+node_2d.tscn::PackedScene::5937364406947074935::1714497647::0::1::::<><>::
+phish.gd::GDScript::-1::1714413324::0::1::::<>Area2D<>::
+phish.tscn::PackedScene::3468491878634080560::1714497647::0::1::::<><>::res://phish.gd<>uid://dkkvpt2sqso8x::::res://sprites/Player swimming animation sprite sheet.png
+phish_script.gd::GDScript::-1::1714152472::0::1::::<>Area2D<>::
 README.md::TextFile::-1::1709583563::0::1::::<><>::
-::res://art/::1710179031
+::res://art/::1714412941
 beach.png::CompressedTexture2D::3840062245650706720::1709755324::1709926347::1::::<><>::
 Joe.png::CompressedTexture2D::2073007290198624360::1709755487::1709755517::1::::<><>::
 ocean.png::CompressedTexture2D::7628429080608570760::1709755210::1709755225::1::::<><>::
 What the heck.png::CompressedTexture2D::7940473418362024907::1709755454::1710179031::1::::<><>::
-::res://sprites/::1714066859
+::res://sprites/::1714498015
 Child Fish 1.png::CompressedTexture2D::288967962664895323::1709753483::1709754399::1::::<><>::
 Child Fish 2.png::CompressedTexture2D::7947308280201733418::1709753662::1709754392::1::::<><>::
-Dad fish swimming animation sprite sheet.png::CompressedTexture2D::5644079846722800026::1713980382::1713980538::1::::<><>::
-Fishing rod (5).png::CompressedTexture2D::3308736019989642056::1710264132::1710264146::1::::<><>::
-Mom fish swimming animation sprite sheet.png::CompressedTexture2D::6436434176737637385::1713980496::1713980538::1::::<><>::
-Player swimming animation sprite sheet.png::CompressedTexture2D::7883097149250209729::1713980135::1713980186::1::::<><>::
-six pack rings 2.png::CompressedTexture2D::4169545327900474551::1714066859::1714068201::1::::<><>::
-six pack rings.png::CompressedTexture2D::1617547917820985112::1713375745::1713375788::1::::<><>::
+Dad fish swimming animation sprite sheet.png::CompressedTexture2D::5644079846722800026::1714413324::1714413324::1::::<><>::
+Fishing rod (5).png::CompressedTexture2D::3308736019989642056::1714498004::1714498018::1::::<><>::
+Mom fish swimming animation sprite sheet.png::CompressedTexture2D::6436434176737637385::1714413324::1714413324::1::::<><>::
+Player swimming animation sprite sheet.png::CompressedTexture2D::7883097149250209729::1714413324::1713980186::1::::<><>::
+six pack rings 2.png::CompressedTexture2D::4169545327900474551::1714413324::1714413324::1::::<><>::
+six pack rings.png::CompressedTexture2D::1617547917820985112::1714413324::1714413324::1::::<><>::
 Tutorial fish.png::CompressedTexture2D::5874935286267587234::1710180223::1710180223::1::::<><>::
 Tutorial_fish.png::CompressedTexture2D::3318432856034586878::1709753327::1710180223::1::::<><>::
