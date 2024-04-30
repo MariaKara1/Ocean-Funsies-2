@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714413043
+::res://::1714497430
 fish_hook.tscn::PackedScene::3986024650194588929::1714412996::0::1::::<><>::uid://bne1ntb5biqbw::::res://sprites/Fishing rod (5).png
+game_over_scene.tscn::PackedScene::3546696175329583854::1714414861::0::1::::<><>::
 huddddddddddddd.gd::GDScript::-1::1714412996::0::1::::<>CanvasLayer<>::
 huddddddddddddddddddddddddddddd.tscn::PackedScene::4523542201678681761::1709841835::0::1::::<><>::
 hudddddddddddddddddddddddddddddddd.tscn::PackedScene::6423604387453161451::1714412996::0::1::::<><>::

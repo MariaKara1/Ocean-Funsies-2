@@ -1,5 +1,7 @@
-Label
+CenterContainer
 VBoxContainer
+Button
+Label
 PanelContainer
 MarginContainer
 CanvasLayer
@@ -10,6 +12,3 @@ CollisionShape2D
 AnimatedSprite2D
 Sprite2D
 ParallaxLayer
-ParallaxBackground
-Marker2D
-Timer
