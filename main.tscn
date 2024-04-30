@@ -63,11 +63,12 @@ mob_scene = ExtResource("2_ljhjs")
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(940, -242)
 motion_mirroring = Vector2(47, 0)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ParallaxBackground/ParallaxLayer"]
 texture_filter = 1
-position = Vector2(557, 262)
+position = Vector2(-387, 496)
 scale = Vector2(35.2266, 32.9891)
 sprite_frames = SubResource("SpriteFrames_gk6e4")
 frame_progress = 0.320921
@@ -88,12 +89,12 @@ wait_time = 2.0
 one_shot = true
 
 [node name="Fish_Hook" parent="." instance=ExtResource("2_ljhjs")]
-position = Vector2(-368, -14)
+position = Vector2(-312, -459)
 
 [node name="MobTimer" type="Timer" parent="."]
 
 [node name="StartForHook" type="Marker2D" parent="."]
-position = Vector2(500, 20)
+position = Vector2(600, -500)
 gizmo_extents = 0.0
 
 [connection signal="start_game" from="HUD" to="." method="new_game"]
