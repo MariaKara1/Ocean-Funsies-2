@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=3 format=3 uid="uid://5xj6ne5xu7pe"]
+=======
+[gd_scene load_steps=3 format=3 uid="uid://b846yht15hdc5"]
+>>>>>>> Stashed changes
 
 [ext_resource type="Script" path="res://storymode.2.0.gd" id="1_ej3dq"]
 
