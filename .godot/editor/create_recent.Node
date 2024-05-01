@@ -1,3 +1,5 @@
+Marker2D
+Timer
 VisibleOnScreenNotifier2D
 RigidBody2D
 CollisionShape2D
@@ -8,8 +10,5 @@ AnimatedSprite2D
 Sprite2D
 ParallaxLayer
 ParallaxBackground
-Marker2D
-Timer
 Button
 Label
-CanvasLayer

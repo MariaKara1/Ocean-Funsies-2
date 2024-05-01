@@ -1,7 +1,10 @@
-[gd_scene load_steps=10 format=3 uid="uid://bcy0ert7kw1qg"]
+[gd_scene load_steps=13 format=3 uid="uid://bcy0ert7kw1qg"]
 
 [ext_resource type="Texture2D" uid="uid://dgxjd277rgc3i" path="res://art/ocean.png" id="1_0xy5b"]
+[ext_resource type="Script" path="res://main.gd" id="1_kslgk"]
+[ext_resource type="PackedScene" uid="uid://bw14ijvmqcwcv" path="res://fish_hook.tscn" id="2_ljhjs"]
 [ext_resource type="PackedScene" uid="uid://cxrv3ctyfqr2b" path="res://hudddddddddddddddddddddddddddddddd.tscn" id="2_va0fa"]
+[ext_resource type="PackedScene" uid="uid://bpofs38un3eui" path="res://phish.tscn" id="4_bw0ws"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yaeh0"]
 atlas = ExtResource("1_0xy5b")
@@ -54,20 +57,49 @@ animations = [{
 }]
 
 [node name="Main" type="Node2D"]
-
-[node name="start position" type="Marker2D" parent="."]
-gizmo_extents = 0.0
+script = ExtResource("1_kslgk")
+mob_scene = ExtResource("2_ljhjs")
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(940, -242)
 motion_mirroring = Vector2(47, 0)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ParallaxBackground/ParallaxLayer"]
 texture_filter = 1
-position = Vector2(9.53674e-07, -9.53674e-07)
-scale = Vector2(1.46875, 1.46875)
+position = Vector2(-387, 496)
+scale = Vector2(35.2266, 32.9891)
 sprite_frames = SubResource("SpriteFrames_gk6e4")
 frame_progress = 0.320921
 
+[node name="StartPosition" type="Marker2D" parent="."]
+position = Vector2(240, 450)
+gizmo_extents = 0.0
+
 [node name="HUD" parent="." instance=ExtResource("2_va0fa")]
+
+[node name="Phish" parent="." instance=ExtResource("4_bw0ws")]
+position = Vector2(-491, 189)
+
+[node name="ScoreTimer" type="Timer" parent="."]
+
+[node name="StartTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="Fish_Hook" parent="." instance=ExtResource("2_ljhjs")]
+position = Vector2(-312, -459)
+
+[node name="MobTimer" type="Timer" parent="."]
+
+[node name="StartForHook" type="Marker2D" parent="."]
+position = Vector2(600, -500)
+gizmo_extents = 0.0
+
+[connection signal="start_game" from="HUD" to="." method="new_game"]
+[connection signal="start_game" from="HUD" to="Fish_Hook" method="_on_hud_start_game"]
+[connection signal="hit" from="Phish" to="." method="game_over"]
+[connection signal="timeout" from="ScoreTimer" to="." method="_on_score_timer_timeout"]
+[connection signal="timeout" from="StartTimer" to="." method="_on_start_timer_timeout"]
+[connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
