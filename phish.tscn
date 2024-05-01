@@ -3,9 +3,6 @@
 [ext_resource type="Script" path="res://phish.gd" id="1_bru01"]
 [ext_resource type="Texture2D" uid="uid://dkkvpt2sqso8x" path="res://sprites/Player swimming animation sprite sheet.png" id="1_ve6e1"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_32ds5"]
-size = Vector2(160, 96)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_5onbt"]
 atlas = ExtResource("1_ve6e1")
 region = Rect2(0, 0, 47, 25)
@@ -38,16 +35,20 @@ animations = [{
 "speed": 12.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fumvb"]
+radius = 45.0
+height = 178.0
+
 [node name="Phish" type="Area2D"]
 script = ExtResource("1_bru01")
 
-[node name="Area2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_32ds5")
-
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(1.90735e-06, 1)
-scale = Vector2(3.22872, 3.17)
+position = Vector2(1.90735e-06, 1.1875)
+scale = Vector2(3.22872, 3.185)
 sprite_frames = SubResource("SpriteFrames_hloxa")
-frame_progress = 0.810153
 speed_scale = 0.5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_fumvb")
