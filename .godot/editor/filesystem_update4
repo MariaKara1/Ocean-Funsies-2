@@ -1,6 +1,7 @@
-res://game_over_scene.tscn
-res://hudddddddddddddddddddddddddddddddd.tscn
 res://phish.tscn
+res://main.gd
 res://fish_hook.tscn
 res://main.tscn
+res://hudddddddddddddddddddddddddddddddd.tscn
 res://node_2d.tscn
+res://fish_hook.gd
