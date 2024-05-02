@@ -19,10 +19,15 @@ func new_game():
 	score = 0
 	$phish.start($StartPosition.position)
 	$StartTimer.start()
+	$MobTimer.start()
+	$Phish.start($StartPosition.position)
+	$Fish_Hook.startf($StartForHook.position)
 
 func _on_score_timer_timeout():
 	score += 1
 
-
 func _on_start_timer_timeout():
 	$ScoreTimer.start()
+
+func _on_mob_timer_timeout():
+	$MobTimer.start()

@@ -3,5 +3,5 @@ res://fish_hook.tscn
 res://main.tscn
 res://hudddddddddddddddddddddddddddddddd.tscn
 res://node_2d.tscn
-res://AnimatedSprite2D.gd
-res://ParallaxBackground.gd
+res://phish.gd
+res://main.gd
